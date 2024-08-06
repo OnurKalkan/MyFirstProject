@@ -27,7 +27,7 @@ public class Loops : MonoBehaviour
         //    x++;
         //    cubeSpaceX = cubeSpaceX - 1.1f;
         //}
-
+        //bu for kodu cube'lerden 5x5 grid olusturmak icin
         for (int i = 0; i < 5; i++)
         {
             Instantiate(cubeSample, cubeSample.transform.position + new Vector3(cubeSpaceX, 0, 0), Quaternion.identity);
