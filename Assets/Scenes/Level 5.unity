@@ -642,7 +642,7 @@ GameObject:
   - component: {fileID: 111649264}
   - component: {fileID: 111649269}
   m_Layer: 0
-  m_Name: Cube Person (3)
+  m_Name: Jane
   m_TagString: CubePerson
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1379,7 +1379,7 @@ GameObject:
   - component: {fileID: 388066941}
   - component: {fileID: 388066946}
   m_Layer: 0
-  m_Name: Cube Person (6)
+  m_Name: Eve
   m_TagString: CubePerson
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1664,7 +1664,7 @@ GameObject:
   - component: {fileID: 481412010}
   - component: {fileID: 481412011}
   m_Layer: 0
-  m_Name: Cube Person
+  m_Name: Lina
   m_TagString: CubePerson
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1800,7 +1800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e3d05d8cbfec644a926e4678f2abe63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 50
+  health: 5
 --- !u!1 &733226952
 GameObject:
   m_ObjectHideFlags: 0
@@ -2081,7 +2081,7 @@ GameObject:
   - component: {fileID: 767411893}
   - component: {fileID: 767411892}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Jeffrey's Torso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2614,7 +2614,7 @@ GameObject:
   - component: {fileID: 866705261}
   - component: {fileID: 866705266}
   m_Layer: 0
-  m_Name: Cube Person (1)
+  m_Name: Jeffrey
   m_TagString: CubePerson
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2766,7 +2766,7 @@ GameObject:
   - component: {fileID: 871352505}
   - component: {fileID: 871352510}
   m_Layer: 0
-  m_Name: Cube Person (2)
+  m_Name: Mark
   m_TagString: CubePerson
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3051,7 +3051,7 @@ GameObject:
   - component: {fileID: 960703518}
   - component: {fileID: 960703523}
   m_Layer: 0
-  m_Name: Cube Person (5)
+  m_Name: Alice
   m_TagString: CubePerson
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4533,7 +4533,7 @@ GameObject:
   - component: {fileID: 1453483749}
   - component: {fileID: 1453483754}
   m_Layer: 0
-  m_Name: Cube Person (4)
+  m_Name: James
   m_TagString: CubePerson
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6143,7 +6143,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2115261223}
   - component: {fileID: 2115261224}
-  - component: {fileID: 2115261225}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -6179,26 +6178,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
---- !u!114 &2115261225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2115261222}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22696d557453ef249b42ad112729350c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numbers: 
-  names:
-  - 
-  - 
-  - 
-  - 
-  - 
-  objList: []
+  cubeMan: {fileID: 103643131}
+  cubePersons:
+  - {fileID: 481412005}
+  - {fileID: 866705260}
+  - {fileID: 871352504}
+  - {fileID: 111649263}
+  - {fileID: 960703517}
+  - {fileID: 388066940}
+  - {fileID: 1453483748}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
