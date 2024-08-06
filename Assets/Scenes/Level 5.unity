@@ -779,6 +779,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 70
+  isOriginal: 0
 --- !u!1 &143272383
 GameObject:
   m_ObjectHideFlags: 0
@@ -1516,6 +1517,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 90
+  isOriginal: 0
 --- !u!1 &417399727
 GameObject:
   m_ObjectHideFlags: 0
@@ -1801,6 +1803,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 5
+  isOriginal: 1
 --- !u!1 &733226952
 GameObject:
   m_ObjectHideFlags: 0
@@ -2751,6 +2754,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  isOriginal: 0
 --- !u!1 &871352504
 GameObject:
   m_ObjectHideFlags: 0
@@ -2903,6 +2907,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 40
+  isOriginal: 0
 --- !u!1 &942591295
 GameObject:
   m_ObjectHideFlags: 0
@@ -3188,6 +3193,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
+  isOriginal: 0
 --- !u!1 &967605349
 GameObject:
   m_ObjectHideFlags: 0
@@ -4670,6 +4676,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 30
+  isOriginal: 0
 --- !u!1 &1506573554
 GameObject:
   m_ObjectHideFlags: 0
@@ -6178,6 +6185,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  numbers: 050000002d0000001500000054000000170000007c00000063080000150000001900000001000000
+  charNames:
+  - asdds
+  - xs
+  - xs
+  - xs
+  - s
+  - 
+  - xs
   cubeMan: {fileID: 103643131}
   cubePersons:
   - {fileID: 481412005}

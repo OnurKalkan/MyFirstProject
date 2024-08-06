@@ -5,4 +5,5 @@ using UnityEngine;
 public class CubePerson : MonoBehaviour
 {
     public int health;
+    public bool isOriginal;
 }

@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class Loops2 : MonoBehaviour
 {
     public int health = 100;
+    public int[] numbers;
+    public string[] charNames;
     public GameObject cubeMan;
     public GameObject[] cubePersons;
 
@@ -19,7 +22,7 @@ public class Loops2 : MonoBehaviour
             {
                 minHealthChar = cubePersons[i].name;
                 minHealth = cubePersons[i].GetComponent<CubePerson>().health;
-            }                
+            }
         }
         for (int i = 0; i < cubePersons.Length; i++)
         {
@@ -41,7 +44,9 @@ public class Loops2 : MonoBehaviour
         GameObject[] cubePersons = GameObject.FindGameObjectsWithTag("CubePerson");
         for (int x = 0; x < 7; x++)
         {
-            cubePersons[x].GetComponent<CubePerson>().health -= 10;
+            if(cubePersons[x].GetComponent<CubePerson>().isOriginal == false)
+                cubePersons[x].GetComponent<CubePerson>().health -= 10;
+
             if (cubePersons[x].GetComponent<CubePerson>().health <= 0)
             {
                 cubePersons[x].GetComponent<Rigidbody>().useGravity = true;
