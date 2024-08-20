@@ -12,12 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 1.unity
     guid: e33323ba2a95f414297b81977b426648
   - enabled: 1
-    path: Assets/Scenes/Level 6.unity
+    path: Assets/Scenes/Level 6 UI.unity
     guid: ab9f6e826972e2e488828839327c68c3
   - enabled: 1
-    path: Assets/Scenes/Level 2.unity
+    path: Assets/Scenes/Level 2 if-else.unity
     guid: e91d6c2c36f9e914fbd445d1c392d6fc
   - enabled: 1
-    path: Assets/Scenes/Level 3.unity
+    path: Assets/Scenes/Level 3 Stundet Grade.unity
     guid: adcae1170a3a21a45a42619e78f949dd
   m_configObjects: {}
